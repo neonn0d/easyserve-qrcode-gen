@@ -3,8 +3,8 @@ import os
 from PIL import Image
 
 # Define the base URL and the range of table numbers
-base_url = "http://192.168.1.51:3000/client/"
-table_range = range(1, 51)
+base_url = "http://192.168.2.74:3000/client/"
+table_range = range(1, 500)
 
 # Create an output directory if it doesn't exist
 output_dir = "output_qr_codes"
